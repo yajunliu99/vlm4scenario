@@ -1,0 +1,23 @@
+# API keys
+.env
+.env.*
+!.env.example
+
+# run outputs and API response cache (regenerate with the commands in README.md)
+out/
+cache/
+
+# dashboard copy used only for publishing as a claude.ai artifact
+dashboard/*.artifact.html
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+.pytest_cache/
+
+# macOS
+.DS_Store
